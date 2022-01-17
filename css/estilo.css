@@ -202,3 +202,206 @@ button:active {
     font-family: calibri;
     color: #7E7D7D;
 }
+
+.servicos-text {
+    width: 500px;
+    margin: 50px 0px;
+}
+
+.box-1, .box-2, .box-3 {
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    background-image: url("../img/services-1.png");
+}
+
+.box-2 {
+    background-image: url("../img/services-2.png");
+}
+
+.box-3 {
+    background-image: url("../img/services-3.png");
+}
+
+.box-1 span,
+.box-2 span,
+.box-3 span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2) {
+    color: #FFF;
+    font-family: calibri;
+    font-size: 23px;
+    line-height: 0px;
+
+}
+
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3) {
+    font-family: calibri;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+    color: #8F8F8F;
+}
+
+.box-1 button,
+.box-2 button,
+.box-3 button {
+    width: 100px;
+    height: 30px;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contato {
+    width: 100%;
+    height: 280px;
+    background-image: url("../img/project\ in\ your\ mind.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato p {
+    color: #FFF;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+}
+
+.contato button {
+    width: 200px;
+    height: 40px;
+    background-color: #FFF;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    font-family: calibri;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7E7D7D;
+    width: 600px;
+    text-align: center;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E3E3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.copy {
+    color: #565555;font-size: 15px;
+    font-size: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.social-icons i {
+    color: #000;
+}
+
+.social-icons a:hover,
+.a-social-b a:hover {
+    background-color: #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.a-social-b a:hover i {
+    color: #FFF;
+    transition: all ease 0.5s;
+}
+
+.a-social-b {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.a-social-b a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #FFF;
+    border: 1px solid #CBCBCB;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.a-social-b i {
+    columns: #2B2B2B;
+    font-size: 20px;
+}
